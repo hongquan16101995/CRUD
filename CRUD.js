@@ -14,8 +14,8 @@ function drawTable() {
 }
 
 function edit(i) {
-    document.getElementById("edit").value = ""
-    document.getElementById("edit").value += productName[i]
+    productName[i] = prompt("Nhập vào tên mới: ")
+    drawTable()
 }
 
 function deleteP(i) {
